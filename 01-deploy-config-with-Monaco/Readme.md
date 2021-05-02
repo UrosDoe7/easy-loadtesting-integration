@@ -1,4 +1,4 @@
-# 1-configure-dynatrace-with-monaco
+# 01-deploy-config-with-monaco
 
 In this step, we will use monaco to import these configurations :  
 - Auto-Tag : **front** => to tag the service Nginx :80 with front
