@@ -1,8 +1,0 @@
-config:
-- slofastrequestqatsnspecialoffers: slofastrequestqatsnspecialoffers.json
-- slototalrequestqatsnspecialoffers: slototalrequestqatsnspecialoffers.json
-
-slofastrequestqatsnspecialoffers:
- - name: "slo-fastrequest-qatsn-specialoffers"
-slototalrequestqatsnspecialoffers:
- - name: "slo-totalrequest-qatsn-specialoffers"
