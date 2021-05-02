@@ -39,6 +39,9 @@ it's what you can import in your Jenkins to automate your monitoring
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
+      
+- run the test 
+      
       cd;
       cd docker-jmeter;
       ./run.sh  -n -t tests/test-plan-with-integration.jmx -Jtenant=$MyTenant -Jtoken=$MyToken -Jhostname=$Hostname -l tests/loadest.jlt
