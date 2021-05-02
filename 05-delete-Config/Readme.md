@@ -23,10 +23,10 @@ it's what you can import in your Jenkins to automate your monitoring
 
 - update the config
 
-       cd;
-       cd ace-load-testing-automation;
-       git pull;
-       cp ace-load-testing-automation/test-plan-* docker-jmeter/tests/
+      cd;
+      cd ace-load-testing-automation;
+      git pull;
+      cp ace-load-testing-automation/test-plan-* docker-jmeter/tests/
        
 
 - deploy the config
