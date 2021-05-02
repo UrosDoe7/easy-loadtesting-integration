@@ -54,7 +54,7 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 
       export ET_APM_SERVER_DEFAULT=APM;
       docker-compose down;
-      docker-compose up -d
+      docker-compose up -d;
       docker-compose stop loadgen
        
   ![image](https://user-images.githubusercontent.com/40337213/116618345-39a3c500-a93f-11eb-9d84-017a0a26ed4c.png)
@@ -67,11 +67,5 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 - [03-results-in-Dynatrace](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/03-results-in-Dynatrace) => to analyse the result in Dynatrace
 - [04-driven-Slo](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/04-driven-Slo) => to define your service level objectifs
 - [05-delete-Config](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/05-delete-Config) => to clean the environment
-- [06-next-Step](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/06-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
-
-
-
-
- 
-      
+- [06-next-Step](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/06-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.   
     
