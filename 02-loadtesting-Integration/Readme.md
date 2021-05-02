@@ -1,4 +1,4 @@
-# 2-loadtest-with-dynatrace-integration
+# 02-loadtesting-Integration
 
 In this step we will run the load test on a test plan with Dynatrace integartion   
 
