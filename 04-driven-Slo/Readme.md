@@ -10,16 +10,16 @@ You need to add **Read SLO** and **Write SLO** from API V2 privilege to your tok
 - Import the metric
 
       cd;cd ace-load-testing-automation;
-      ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
+      ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric
 
 - Import the Slo
 
       cd;cd ace-load-testing-automation;
-      ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
+      ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo
 
 2) run a new loat test
 
-       cd; cd docker-jmeter;
+       cd;cd docker-jmeter;
        ./run.sh  -n -t tests/test-plan-with-integration.jmx -Jtenant=$MyTenant -Jtoken=$MyToken -Jhostname=$Hostname -l tests/loadest.jlt
 
 3) valiate the result
