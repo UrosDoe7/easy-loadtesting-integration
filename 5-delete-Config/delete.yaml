@@ -1,0 +1,14 @@
+delete:
+ - "calculated-metrics-service/slo-fastrequest-qatsn-specialoffers"
+ - "calculated-metrics-service/slo-totalrequest-qatsn-specialoffers"
+ - "slo/QA-SLO-SpecialOffers"
+ - "request-attributes/LSN"
+ - "request-attributes/LTN"
+ - "request-attributes/SI"
+ - "request-attributes/TSN"
+ - "request-attributes/VU"
+ - "auto-tag/front"
+ - "request-naming-service/JMeter SpecialOffers"
+ - "request-naming-service/JMeter Search"
+ - "request-naming-service/JMeter Login"
+ 

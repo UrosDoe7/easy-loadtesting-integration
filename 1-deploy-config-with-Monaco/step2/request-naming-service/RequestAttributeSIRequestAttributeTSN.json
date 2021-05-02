@@ -1,0 +1,40 @@
+{
+ "conditions": [
+  {
+   "attribute": "SERVICE_REQUEST_ATTRIBUTE",
+   "comparisonInfo": {
+    "caseSensitive": false,
+    "comparison": "EXISTS",
+    "matchOnChildCalls": false,
+    "negate": false,
+    "requestAttribute": "SI",
+    "source": null,
+    "type": "STRING_REQUEST_ATTRIBUTE",
+    "value": null
+   }
+  },
+  {
+   "attribute": "SERVICE_REQUEST_ATTRIBUTE",
+   "comparisonInfo": {
+    "caseSensitive": false,
+    "comparison": "EXISTS",
+    "matchOnChildCalls": false,
+    "negate": false,
+    "requestAttribute": "TSN",
+    "source": null,
+    "type": "STRING_REQUEST_ATTRIBUTE",
+    "value": null
+   }
+  }
+ ],
+ "enabled": true,
+ "managementZones": [],
+ "metadata": {
+  "clusterVersion": "1.215.107.20210414-181420",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "namingPattern": "{RequestAttribute:SI} {RequestAttribute:TSN}",
+ "placeholders": []
+}
