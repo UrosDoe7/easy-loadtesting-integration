@@ -12,7 +12,7 @@ In this step, we will use monaco to import these configurations :
        mv monaco-linux-amd64 monaco;
        chmod +x monaco;
        export NEW_CLI=1;
-       ./monaco --version;
+       ./monaco --version
 
 2) create your token   
 Go to your Dynatrace environment :  _Settings > Integration > Dynatrace API > Generate Token_   
@@ -33,12 +33,12 @@ export tenant abcd123.live.dynatrace.com variable without https://
 - deploy tag and request attribute  
        
       cd;cd ace-load-testing-automation;
-      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
+      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1
 
 - deploy request naming
 
       cd;cd ace-load-testing-automation;
-      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
+      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2
 
 5) validate the imported configuration in Dynatrace with monaco  
 - tag=**front** : you must have the Nginx Service.  
