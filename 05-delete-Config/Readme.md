@@ -13,6 +13,10 @@
  # In summary 
 it's what you can import in your Jenkins to automate your monitoring 
       
+- stop loadgen
+      
+      docke-compose stop loadgen
+
 - export the variables
 
       export NEW_CLI=1;
