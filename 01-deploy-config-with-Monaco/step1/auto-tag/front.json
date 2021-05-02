@@ -1,0 +1,56 @@
+{
+ "description": null,
+ "metadata": {
+  "clusterVersion": "1.215.107.20210414-181420",
+  "configurationVersions": [
+   7
+  ]
+ },
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "SERVICE_TYPE",
+      "value": "WEB_REQUEST_SERVICE"
+     },
+     "key": {
+      "attribute": "SERVICE_TYPE"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "negate": false,
+      "operator": "EQUALS",
+      "type": "SIMPLE_TECH",
+      "value": {
+       "type": "NGINX"
+      }
+     },
+     "key": {
+      "attribute": "SERVICE_TECHNOLOGY"
+     }
+    },
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "ENDS_WITH",
+      "type": "STRING",
+      "value": ":80"
+     },
+     "key": {
+      "attribute": "SERVICE_NAME"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [],
+   "type": "SERVICE",
+   "valueFormat": null
+  }
+ ]
+}
