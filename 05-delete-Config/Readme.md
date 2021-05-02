@@ -35,8 +35,6 @@ it's what you can import in your Jenkins to automate your monitoring
 
 - deploy the config
 
-      cd;
-      cd ace-load-testing-automation;
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
