@@ -15,7 +15,7 @@ it's what you can import in your Jenkins to automate your monitoring
       
 - stop loadgen
       
-      docke-compose stop loadgen
+      docker-compose stop loadgen
 
 - export the variables
 
