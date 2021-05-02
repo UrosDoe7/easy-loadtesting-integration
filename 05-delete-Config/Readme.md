@@ -31,14 +31,14 @@ it's what you can import in your Jenkins to automate your monitoring
 
 - deploy the config
 
-       cd;
-       cd ace-load-testing-automation;
-       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
-       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
-       ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
-       ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
-       cd docker-jmeter;
-       ./run.sh  -n -t tests/test-plan-with-integration.jmx -Jtenant=$MyTenant -Jtoken=$MyToken -Jhostname=$Hostname -l tests/loadest.jlt
+      cd;
+      cd ace-load-testing-automation;
+      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
+      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
+      ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
+      ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
+      cd docker-jmeter;
+      ./run.sh  -n -t tests/test-plan-with-integration.jmx -Jtenant=$MyTenant -Jtoken=$MyToken -Jhostname=$Hostname -l tests/loadest.jlt
   
  # Next Step
 - [06-next-Step](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/06-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
