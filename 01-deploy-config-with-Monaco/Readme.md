@@ -7,7 +7,7 @@ In this step, we will use monaco to import these configurations :
 
 1) download monaco
 
-       cd;cd ace-load-testing-automation;
+       cd;cd easy-loadtesting-integration;
        wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.5.2/monaco-linux-amd64;
        mv monaco-linux-amd64 monaco;
        chmod +x monaco;
