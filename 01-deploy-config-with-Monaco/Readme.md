@@ -32,12 +32,12 @@ export tenant abcd123.live.dynatrace.com variable without https://
 
 - deploy tag and request attribute  
        
-      cd;cd ace-load-testing-automation;
+      cd;cd easy-loadtesting-integration;
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1
 
 - deploy request naming
 
-      cd;cd ace-load-testing-automation;
+      cd;cd easy-loadtesting-integration;
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2
 
 5) validate the imported configuration in Dynatrace with monaco  
@@ -64,9 +64,9 @@ export tenant abcd123.live.dynatrace.com variable without https://
 | export NEW_CLI=1 | echo "NEW_CLI="$NEW_CLI  | ✔️ |
 | export MyTenant=1234.live.dynatrace.com | echo "MyTenant=https://"$MyTenant  | ✔️ |
 | export MyToken=abcd1234xyz| echo "MyToken="$MyToken | ✔️ |
-| cd;git clone https://github.com/ace-dynatrace-lab/ace-load-testing-automation | cd;ls -lrt ace-load-testing-automation | ✔️ |
+| cd;git clone https://github.comdynatrace-ace-services/easy-loadtesting-integration | cd;ls -lrt dynatrace-ace-services | ✔️ |
 | monaco installed with NEW_CLI=1 (new monaco cli version) | cd;cd monaco-lab;./monaco --version  | ✔️ |
 
 # Next Step
-- [02-loadtesting-Integration](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/02-loadtesting-Integration) => to run the load test with Dynatrace integration
+- [02-loadtesting-Integration](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/02-loadtesting-Integration) => to run the load test with Dynatrace integration
 
