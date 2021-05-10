@@ -21,7 +21,7 @@ it's what you can import in your Jenkins pipeline to automate your monitoring
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
       
-- run the test 
+- run the load test 
       
       cd;
       cd docker-jmeter;
