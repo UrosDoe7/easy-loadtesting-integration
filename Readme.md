@@ -61,12 +61,12 @@ Go to your dynatrace environment : *Deployment status > OneAgents*, if there is 
 
 
 # Next Step
-- [00-start-with-Jmeter](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/00-start-with-Jmeter) => to install Jmeter docker and start your firts load test run without Dynatrace integration.
-- [01-deploy-config-with-Monaco](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/01-deploy-config-with-Monaco) => to prepare the environment with request attribute, etc..
-- [02-loadtesting-Integration](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/02-loadtesting-Integration) => to run the load test with Dynatrace integration
-- [03-results-in-Dynatrace](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/03-results-in-Dynatrace) => to analyse the result in Dynatrace
-- [04-driven-Slo](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/04-driven-Slo) => to define your service level objectifs
-- [05-delete-Config](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/05-delete-Config) => to clean the environment
-- [06-in-Summary](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/06-in-Summary) => it's an overview of the task you can easily automate.
-- [07-next-Step](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/07-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.   
+- [00-start-with-Jmeter](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/00-start-with-Jmeter) => to install Jmeter docker and start your firts load test run without Dynatrace integration.
+- [01-deploy-config-with-Monaco](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/01-deploy-config-with-Monaco) => to prepare the environment with request attribute, etc..
+- [02-loadtesting-Integration](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/02-loadtesting-Integration) => to run the load test with Dynatrace integration
+- [03-results-in-Dynatrace](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/03-results-in-Dynatrace) => to analyse the result in Dynatrace
+- [04-driven-Slo](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/04-driven-Slo) => to define your service level objectifs
+- [05-delete-Config](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/05-delete-Config) => to clean the environment
+- [06-in-Summary](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/06-in-Summary) => it's an overview of the task you can easily automate.
+- [07-next-Step](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/07-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.   
     
