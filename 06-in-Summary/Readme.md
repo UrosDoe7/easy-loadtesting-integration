@@ -1,5 +1,5 @@
  # 06-in-Summary 
-it's what you can import in your Jenkins to automate your monitoring 
+it's what you can import in your Jenkins pipeline to automate your monitoring 
       
 - stop loadgen
       
