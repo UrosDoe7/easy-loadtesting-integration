@@ -41,7 +41,7 @@ Short description of the run load test for integration :
        
       cd;cd docker-jmeter;
       ./run.sh  -n -t tests/test-plan-with-integration.jmx -Jtenant=$MyTenant -Jtoken=$MyToken -Jhostname=$Hostname -L DEBUG -l tests/loadest.jlt &
-      tail -f tests/LoadTest.jl                 
+      tail -f tests/LoadTest.jlt
                  
 # Next Step
 - [03-results-in-Dynatrace](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/03-results-in-Dynatrace) => to analyse the result in Dynatrace
