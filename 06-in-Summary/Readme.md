@@ -35,4 +35,4 @@ it's what you can import in your Jenkins pipeline to automate your monitoring
       ./run.sh  -n -t tests/test-plan-with-integration.jmx -Jtenant=$MyTenant -Jtoken=$MyToken -Jhostname=$Hostname -l tests/loadest.jlt
   
  # Next Step
-- [07-next-Step](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/07-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
+- [07-next-Step](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/07-next-Step) => now you are ready to integrate Dynatrace configuration to your CICD pipeline.
