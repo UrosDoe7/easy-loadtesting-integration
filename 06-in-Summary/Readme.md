@@ -13,13 +13,6 @@ it's what you can import in your Jenkins pipeline to automate your monitoring
       export Appname=<Host_Group>
       export Hostname=<myhostname.domaine.com>
 
-- update the config
-
-      cd;
-      cd ace-load-testing-automation;
-      git pull;
-      cp test-plan-* ../docker-jmeter/tests/
-       
 
 - deploy the config
 
