@@ -8,7 +8,7 @@
  Don't worry, it will delete only the configuration from monaco_lab and not your others Dynatrace configurations ;)
 
        cd;cd easy-loadtesting-integration;
-       ../monaco deploy -e=environments.yaml -delete-Config
+       ./monaco deploy -e=environments.yaml -delete-Config
        
 
 # Next Step
