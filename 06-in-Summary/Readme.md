@@ -14,7 +14,14 @@ it's what you can import in your Jenkins pipeline to automate your monitoring
       export Hostname=<myhostname.domaine.com>
 
 
-- deploy the config
+- update the config
+
+      cd;
+      cd easy-loadtesting-integration;
+      git pull;
+      cp test-plan-* ../docker-jmeter/tests/
+
+-  deploy the config
 
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
