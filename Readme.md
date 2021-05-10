@@ -1,4 +1,4 @@
-#  Automate Cloud for all : How to integrate the load test in dynatrace
+#  Automate Cloud for all : How to integrate the load tests in Dynatrace.
 
 In this lab, you will run a jmeter sceanrio to test the demo easytravel application.  
 You will need : a free_trial Dynatrace tenant and a linux environment to install easytravel docker and jmeter (easytravel and jmeter can be on the same host or not)
