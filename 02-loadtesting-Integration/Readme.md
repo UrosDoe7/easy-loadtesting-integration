@@ -44,4 +44,4 @@ Short description of the run load test for integration :
       tail -f tests/LoadTest.jl                 
                  
 # Next Step
-- [03-results-in-Dynatrace](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/03-results-in-Dynatrace) => to analyse the result in Dynatrace
+- [03-results-in-Dynatrace](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/03-results-in-Dynatrace) => to analyse the result in Dynatrace
