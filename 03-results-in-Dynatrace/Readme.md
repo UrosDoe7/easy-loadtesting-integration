@@ -21,4 +21,4 @@
              
                  
   # Next Step
-- [04-driven-Slo](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/04-driven-Slo) => define your service level objectif
+- [04-driven-Slo](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/04-driven-Slo) => define your service level objectif
