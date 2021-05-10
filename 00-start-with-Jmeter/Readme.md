@@ -13,10 +13,10 @@ In this lab you will install a Jmeter docker on your linux host.
       cd docker-jmeter/;
       ./run.sh --?       
        
-4) download the lab  
+4) download this lab  
 
        cd;
-       git clone https://github.com/ace-dynatrace-lab/ace-load-testing-automation
+       git clone https://github.com/dynatrace-ace-services/easy-loadtesting-integration
 
 5) copy the tests plan  
 
@@ -61,12 +61,12 @@ Short description of the test plan without dynatrace integration:
 | export Hostname=<myhostname.domain.com> |echo "Hostname="$Hostname  | ✔️ |
 | OneAgent installed with hostgroup=appname | service oneagent status | ✔️ |
 | cd;git clone https://github.com/justb4/docker-jmeter.git | ls docker-jmeter | ✔️ |
-| cd;git clone https://github.com/ace-dynatrace-lab/ace-load-testing-automation | ls ace-load-testing-automation | ✔️ |
-| cd;mv ace-load-testing-automation/test-plan-with* docker-jmeter/tests/ | ls docker-jmeter/tests | ✔️ |
-| easytravel installed and started (accesible from your browser) | curl -Is http://$Hostname | ✔️ |
+| cd;git clone https://github.com/dynatrace-ace-services/easy-loadtesting-integration | ls easy-loadtesting-integration | ✔️ |
+| cd;mv easy-loadtesting-integration/test-plan-with* docker-jmeter/tests/ | ls docker-jmeter/tests | ✔️ |
+| easytravel installed and started (accessible from your browser) | curl -Is http://$Hostname | ✔️ |
 | loadgen is stopped | docker-compose stop loadgen | ✔️ |
-| cd;cd /docker-jmeter;./run.sh -n -t tests/ace-load-testing-automation/test-plan-without-integration.jmx -Jhostname=$Hostname -l tests/loadtcd esting-lab/LoadTest.jlt & | tail -f ests/loadtcd esting-lab/LoadTest.jlt | ✔️ |
+| cd;cd /docker-jmeter;./run.sh -n -t tests/easy-loadtesting-integration/test-plan-without-integration.jmx -Jhostname=$Hostname -l tests/loadtcd esting-lab/LoadTest.jlt & | tail -f ests/loadtcd esting-lab/LoadTest.jlt | ✔️ |
 
 # Next Step  
 
-- [01-deploy-config-with-Monaco](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/01-deploy-config-with-Monaco) => to prepare the environment with request attribute, etc..
+- [01-deploy-config-with-Monaco](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/01-deploy-config-with-Monaco) => to prepare the environment with request attribute, etc..
