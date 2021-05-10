@@ -9,12 +9,12 @@ You need to add **Read SLO** and **Write SLO** from API V2 privilege to your tok
 
 - Import the metric
 
-      cd;cd ace-load-testing-automation;
+      cd;cd easy-loadtesting-integration;
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric
 
 - Import the Slo
 
-      cd;cd ace-load-testing-automation;
+      cd;cd easy-loadtesting-integration;
       ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo
 
 2) run a new loat test
@@ -28,4 +28,4 @@ You need to add **Read SLO** and **Write SLO** from API V2 privilege to your tok
 
 
   # Next Step
-- [05-delete-Config](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/tree/main/05-delete-Config) => to clean the environment
+- [05-delete-Config](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/tree/main/05-delete-Config) => to clean the environment
