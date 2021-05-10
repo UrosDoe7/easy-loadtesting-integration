@@ -23,10 +23,10 @@ it's what you can import in your Jenkins pipeline to automate your monitoring
 
 -  deploy the config
 
-      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
-      ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
-      ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
-      ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
+       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step1;
+       ./monaco deploy -e=environments.yaml 01-deploy-config-with-Monaco/step2;
+       ./monaco deploy -e=environments.yaml 04-driven-Slo/Metric;
+       ./monaco deploy -e=environments.yaml 04-driven-Slo/Slo;
       
 - run the load test 
       
