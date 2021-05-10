@@ -11,7 +11,7 @@ In this lab you will install a Jmeter docker on your linux host.
 
       cd;
       cd docker-jmeter/;
-      ./run.sh --?       
+      ./run.sh --?
        
 4) download this lab  
 
