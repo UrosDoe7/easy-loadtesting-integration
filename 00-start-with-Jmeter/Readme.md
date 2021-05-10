@@ -21,7 +21,7 @@ In this lab you will install a Jmeter docker on your linux host.
 5) copy the tests plan  
 
        cd;
-       cp ace-load-testing-automation/test-plan-* docker-jmeter/tests/
+       cp easy-loadtesting-integration/test-plan-* docker-jmeter/tests/
 
 2) export your fisrt environment variable  
 
