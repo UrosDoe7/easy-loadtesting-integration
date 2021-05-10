@@ -64,7 +64,7 @@ export tenant abcd123.live.dynatrace.com variable without https://
 | export NEW_CLI=1 | echo "NEW_CLI="$NEW_CLI  | ✔️ |
 | export MyTenant=1234.live.dynatrace.com | echo "MyTenant=https://"$MyTenant  | ✔️ |
 | export MyToken=abcd1234xyz| echo "MyToken="$MyToken | ✔️ |
-| cd;git clone https://github.comdynatrace-ace-services/easy-loadtesting-integration | cd;ls -lrt dynatrace-ace-services | ✔️ |
+| cd;git clone https://github.com/dynatrace-ace-services/easy-loadtesting-integration | cd;ls -lrt easy-loadtesting-integration | ✔️ |
 | monaco installed with NEW_CLI=1 (new monaco cli version) | cd;cd monaco-lab;./monaco --version  | ✔️ |
 
 # Next Step
