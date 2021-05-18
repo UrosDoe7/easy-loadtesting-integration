@@ -5,7 +5,8 @@ In this lab you will install a Jmeter docker on your linux host.
 1) install jmeter 
 
        cd;
-       git clone https://github.com/justb4/docker-jmeter.git
+       git clone https://github.com/justb4/docker-jmeter.git;
+       ./build.sh
        
 - try it for help 
 
