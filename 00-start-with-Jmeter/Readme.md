@@ -41,8 +41,7 @@ In this lab you will install a Jmeter docker on your linux host.
    ![image](https://user-images.githubusercontent.com/40337213/116276203-973fe200-a784-11eb-9b70-921f53ea8ea3.png)
 
 
-7) test-plan-without-integration : find the jmx [here](https://github.com/dynatrace-ace-services/easy-loadtesting-integration![image](https://user-images.githubusercontent.com/40337213/118807550-be339480-b8a8-11eb-828f-59fdea43da82.png)
-/blob/main/test-plan-without-integration.jmx)   
+7) test-plan-without-integration : find the jmx [here](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/blob/main/test-plan-without-integration.jmx)   
 Short description of the test plan without dynatrace integration:  
 - Load Test Step: **Login**
 ![image](https://user-images.githubusercontent.com/40337213/116147594-3a8aeb80-a6e0-11eb-8a70-21c345d6b4c3.png)
