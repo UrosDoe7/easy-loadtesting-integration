@@ -5,7 +5,7 @@ In this step, we will use monaco to import these configurations :
 - Request Attribute => to catch the parameter **LSN**, **LTN**, **SI**, **TSN**, **VU** which are contain in the http header : x-dynatrace-test : VU=1;TSN=Login;SI=JMeter;LSN=KeyTransactions;LTN=DT_Training;...  
 - Request Naming : **{RequestAttribute:SI} {RequestAttribute:TSN}**
 
-1) download monaco
+1) download monaco  (monaco-linux-amd64 -more distrib [here](https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/))  
 
        cd;cd easy-loadtesting-integration;
        wget wget https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/latest/download/monaco-linux-amd64;
