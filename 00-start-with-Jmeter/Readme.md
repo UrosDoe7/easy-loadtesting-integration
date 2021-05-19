@@ -26,7 +26,7 @@ In this lab you will install a Jmeter docker on your linux host.
 
 2) export your fisrt environment variable  
 
-       export Hostname=<myhostname.domaine.com>
+       export Hostname=<myhostname.domaine.com> (without https://...)
 
 - verify your env variable  
 
