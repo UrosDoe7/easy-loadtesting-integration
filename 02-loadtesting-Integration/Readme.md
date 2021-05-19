@@ -2,9 +2,9 @@
 
 In this step we will run the load test on a test plan with Dynatrace integartion   
 
-1) test-plan-with-integration : find the jmx [here](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/blob/main/test-plan-with-integration.jmx) 
+1) test-plan-with-integration : find the jmx [here](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/blob/main/test-plan-with-integration.jmx) 
 Short description of the run load test for integration :  
-- [event-checking](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/blob/main/2-loadtest-with-dynatrace-integration/event-checking.json)
+- [event-checking](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/blob/main/2-loadtest-with-dynatrace-integration/event-checking.json)
 ![image](https://user-images.githubusercontent.com/40337213/116277404-bab75c80-a785-11eb-8caf-dfcee8e498e4.png)
 
 - **Login** with x-dynatrace-test
@@ -16,10 +16,10 @@ Short description of the run load test for integration :
 - **Special offer** with x-dynatrace-test
 ![image](https://user-images.githubusercontent.com/40337213/116277790-1aae0300-a786-11eb-80d5-80a797c41323.png)
 
-- [event-checkout](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/blob/main/2-loadtest-with-dynatrace-integration/event-checkout.json)  
+- [event-checkout](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/blob/main/2-loadtest-with-dynatrace-integration/event-checkout.json)  
 ![image](https://user-images.githubusercontent.com/40337213/116277935-4335fd00-a786-11eb-9db9-90261e9a33ea.png)
 
-- [annotation-checkout](https://github.com/ace-dynatrace-lab/ace-load-testing-automation/blob/main/2-loadtest-with-dynatrace-integration/event-checkout.json), between start and stop    
+- [annotation-checkout](https://github.com/dynatrace-ace-services/easy-loadtesting-integration/blob/main/2-loadtest-with-dynatrace-integration/event-checkout.json), between start and stop    
 ![image](https://user-images.githubusercontent.com/40337213/116278174-88f2c580-a786-11eb-865d-c1ad5a258157.png)
 
 
